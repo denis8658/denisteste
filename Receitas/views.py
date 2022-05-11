@@ -6,5 +6,5 @@ def home(Request):
     return render(Request, 'Receitas/pages/home.html')
 
 
-def recitas(Request):
-    return render(Request, 'Receitas/pages/home.html')
+def receitas(Request, id):
+    return render(Request, 'Receitas/pages/receitas-views.html')
