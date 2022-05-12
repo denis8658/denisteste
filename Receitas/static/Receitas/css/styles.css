@@ -46,7 +46,7 @@
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -179,7 +179,7 @@ h6 {
 }
 
 .receitas-list-item {
-    max-width: 64rem;
+    max-width: 840px;
     border-radius: 4px;
 }
 
@@ -277,12 +277,12 @@ h6 {
     filter: brightness(.8);
 }
 
-.main-content-detail  .recipe-list-item {
-    max-width: 84rem;
+.main-content-detail  .receitas-list-item {
+    max-width: 840px;
     margin: 0 auto;
 }
   
-  .main-content-detail .recipe-list-item:hover {
+  .main-content-detail .receitas-list-item:hover {
     transform: scale(1);
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
 }
